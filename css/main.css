@@ -35,12 +35,28 @@ strong + .dfn {
   color: #fff;
 }
 
+nav ul li:first-child {
+  background-color: #719e07;
+}
+
+nav ul li:nth-child(2) {
+  background-color: #719e07;
+}
+
+nav ul li:last-child {
+  background-color: #719e07;
+}
+
+h2 ul li:first-child {
+  background-color: #719e07;
+}
+
 [rel="external"] {
   background-color: #2694d8;
 }
 
 ol li:first-child {
-  color: #719e07;
+  color: #719e47;
 }
 
 ol li:last-child {

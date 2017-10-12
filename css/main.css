@@ -8,7 +8,7 @@ header, footer {
 
 }
 
-ul > nav {
+nav > ul {
   font-family: sans-serif;
 
 }
@@ -27,27 +27,15 @@ ul > nav {
   color: #93a1a1;
 }
 
-.dfn > .wrapper {
+.wrapper .dfn {
   background-color: #b58900;
 }
 
-strong + .dfn {
+p + strong {
   color: #fff;
 }
 
-nav ul li:first-child {
-  background-color: #719e07;
-}
-
-nav ul li:nth-child(2) {
-  background-color: #719e07;
-}
-
-nav ul li:last-child {
-  background-color: #719e07;
-}
-
-h2 ul li:first-child {
+nav a:not(.no-highlight) {
   background-color: #719e07;
 }
 
